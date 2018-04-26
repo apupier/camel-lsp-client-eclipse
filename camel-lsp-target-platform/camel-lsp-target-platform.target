@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="camel-lsp-eclipse" sequenceNumber="4">
+<?pde version="3.8"?><target name="camel-lsp-eclipse" sequenceNumber="12">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.pde.feature.group" version="3.13.1.v20171009-0537"/>
-<unit id="org.eclipse.pde.source.feature.group" version="3.13.1.v20171009-0537"/>
-<unit id="org.eclipse.sdk.ide" version="4.7.1.M20171009-0410"/>
-<unit id="org.eclipse.sdk.tests.feature.group" version="4.7.1.v20171009-0410"/>
+<unit id="org.eclipse.wst.xml_ui.feature.feature.group" version="3.9.1.v201707252002"/>
+<repository location="http://download.eclipse.org/releases/oxygen"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.pde.feature.group" version="3.13.4.v20180330-0640"/>
+<unit id="org.eclipse.pde.source.feature.group" version="3.13.4.v20180330-0640"/>
+<unit id="org.eclipse.sdk.ide" version="4.7.3.M20180330-0640"/>
+<unit id="org.eclipse.sdk.tests.feature.group" version="4.7.3.v20180330-0919"/>
 <unit id="org.eclipse.test.feature.group" version="3.7.200.v20170511-1043"/>
 <repository location="http://download.eclipse.org/eclipse/updates/4.7/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.lsp4j.sdk.feature.group" version="0.3.0.v20170913-0640"/>
+<repository location="http://download.eclipse.org/lsp4j/updates/releases/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.assertj" version="1.7.1.v20170413-2026"/>
@@ -15,10 +23,16 @@
 <repository location="http://download.eclipse.org/tools/orbit/R-builds/R20170516192513/repository"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.lsp4e" version="0.3.0.201709111356"/>
-<unit id="org.eclipse.lsp4j.sdk.feature.group" version="0.2.0.v20170518-0647"/>
-<unit id="org.eclipse.wst.xml_ui.feature.feature.group" version="3.9.1.v201707252002"/>
-<repository location="http://download.eclipse.org/releases/oxygen"/>
+<unit id="org.eclipse.lsp4e" version="0.4.0.201710071337"/>
+<unit id="org.eclipse.lsp4e.source" version="0.4.0.201710071337"/>
+<unit id="org.eclipse.lsp4e.test" version="0.4.0.201710071337"/>
+<unit id="org.eclipse.lsp4j" version="0.3.0.v20170913-0636"/>
+<unit id="org.eclipse.lsp4j.jsonrpc" version="0.3.0.v20170913-0636"/>
+<repository location="http://download.eclipse.org/lsp4e/releases/latest/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.xtend.sdk.feature.group" version="2.13.0.v20171020-0920"/>
+<repository location="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
 </location>
 </locations>
 </target>
